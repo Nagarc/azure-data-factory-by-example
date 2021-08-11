@@ -1,0 +1,9 @@
+{
+	"name": "ds-adf-poc-rl",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "210957fd-3386-4a15-bc12-c7bff589f3d7",
+		"tenantId": "f9daae82-4727-4163-93b9-2214828e3dba"
+	}
+}

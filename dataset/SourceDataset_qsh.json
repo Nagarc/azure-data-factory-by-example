@@ -1,0 +1,22 @@
+{
+	"name": "SourceDataset_qsh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageSample",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "azure-data-factory-by-example-main.zip",
+				"fileSystem": "landing"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
